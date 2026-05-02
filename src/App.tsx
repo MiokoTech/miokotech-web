@@ -326,8 +326,8 @@ function App() {
             <p style={{ marginTop: '0.5rem', color: '#5a5a6a' }}>{t.footerDesc}</p>
           </div>
           <div className="footer-social">
-            <a href="#" className="social-link" title="Discord">Discord</a>
-            <a href="#" className="social-link" title="WhatsApp">WhatsApp</a>
+            <a href="https://discord.gg/miokotech" target="_blank" rel="noreferrer" className="social-link" title="Discord">Discord</a>
+            <a href="https://wa.me/6285720090912" target="_blank" rel="noreferrer" className="social-link" title="WhatsApp">WhatsApp</a>
           </div>
         </div>
       </footer>
