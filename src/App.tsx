@@ -212,17 +212,17 @@ function App() {
           <p className="section-subtitle reveal">{t.featSub}</p>
           
           <div className="features-grid">
-            <div className="feature-card glass-panel 3d-tilt reveal" style={{ transitionDelay: '0.1s' }}>
+            <div className="feature-card glass-panel tilt-3d reveal" style={{ transitionDelay: '0.1s' }}>
               <div className="feature-icon">🎮</div>
               <h3>{t.feat1Title}</h3>
               <p>{t.feat1Desc}</p>
             </div>
-            <div className="feature-card glass-panel 3d-tilt reveal" style={{ transitionDelay: '0.2s' }}>
+            <div className="feature-card glass-panel tilt-3d reveal" style={{ transitionDelay: '0.2s' }}>
               <div className="feature-icon">⚡</div>
               <h3>{t.feat2Title}</h3>
               <p>{t.feat2Desc}</p>
             </div>
-            <div className="feature-card glass-panel 3d-tilt reveal" style={{ transitionDelay: '0.3s' }}>
+            <div className="feature-card glass-panel tilt-3d reveal" style={{ transitionDelay: '0.3s' }}>
               <div className="feature-icon">🔥</div>
               <h3>{t.feat3Title}</h3>
               <p>{t.feat3Desc}</p>
