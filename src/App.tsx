@@ -14,7 +14,7 @@ const translations = {
     heroDesc: 'Persiapkan sesi Live TikTok interaktif Anda dengan mudah. Aplikasi ini adalah manajer terpusat untuk menelusuri katalog game, memasang modifikasi secara instan, dan mengatur profil skenario permainan sebelum Anda mulai streaming.',
     heroBtnPrimary: 'Download App',
     heroBtnSecondary: 'Lihat Cara Kerja',
-    featTitle: 'Kenapa MiokoTech ',
+    featTitle: 'Kenapa MioNova ',
     featTitleHighlight: 'Berbeda?',
     featSub: 'Lebih dari sekadar jembatan API. Kami mengelola mod Anda secara native.',
     feat1Title: 'Katalog Game Bawaan',
@@ -54,7 +54,7 @@ const translations = {
     prFeat4: 'Dukungan Update Prioritas',
     prFeat5: 'Anti-Leak & Lisensi Aman',
     prBtn: 'Install Sekarang',
-    footerDesc: 'Disclaimer: MiokoTech adalah aplikasi pihak ketiga dan tidak berafiliasi secara resmi dengan Rockstar Games, Take-Two Interactive, ataupun TikTok.'
+    footerDesc: 'Disclaimer: MioNova adalah aplikasi pihak ketiga dan tidak berafiliasi secara resmi dengan Rockstar Games, Take-Two Interactive, ataupun TikTok.'
   },
   en: {
     navFitur: 'Features',
@@ -68,7 +68,7 @@ const translations = {
     heroDesc: 'Prepare your interactive TikTok Live sessions effortlessly. This app is a centralized manager to browse game catalogs, install modifications instantly, and set up your gameplay scenario profiles before you start streaming.',
     heroBtnPrimary: 'Download App',
     heroBtnSecondary: 'See How it Works',
-    featTitle: 'Why MiokoTech is ',
+    featTitle: 'Why MioNova is ',
     featTitleHighlight: 'Different?',
     featSub: 'More than just an API bridge. We manage your mods natively.',
     feat1Title: 'Built-in Game Catalog',
@@ -108,7 +108,7 @@ const translations = {
     prFeat4: 'Priority Update Support',
     prFeat5: 'Anti-Leak & Secure License',
     prBtn: 'Install Now',
-    footerDesc: 'Disclaimer: MiokoTech is a third-party application and is not officially affiliated with Rockstar Games, Take-Two Interactive, or TikTok.'
+    footerDesc: 'Disclaimer: MioNova is a third-party application and is not officially affiliated with Rockstar Games, Take-Two Interactive, or TikTok.'
   }
 };
 
@@ -173,7 +173,7 @@ function App() {
       <div className="cyber-grid"></div>
       
       <nav className="navbar">
-        <div className="nav-brand glitch" data-text="MiokoTech">Mioko<span className="text-gradient">Tech</span></div>
+        <div className="nav-brand glitch" data-text="MioNova">Mio<span className="text-gradient">Nova</span></div>
         <div className="nav-links">
           <a href="#features">{t.navFitur}</a>
           <a href="#workflow">{t.navCaraKerja}</a>
@@ -306,7 +306,7 @@ function App() {
               <li>{t.prFeat5}</li>
             </ul>
             <a 
-              href="https://github.com/miokotech/mod-manager/releases/latest" 
+              href="https://github.com/MiokoTech/MioNova/releases/latest/download/MioNova-Setup.exe"
               target="_blank"
               rel="noreferrer"
               className="btn-primary btn-block btn-shimmer"
@@ -319,10 +319,10 @@ function App() {
       </main>
 
       <footer className="footer">
-        <div className="footer-logo">Mioko<span className="text-gradient">Tech</span></div>
+        <div className="footer-logo">Mio<span className="text-gradient">Nova</span></div>
         <div className="footer-content">
           <div className="footer-disclaimer">
-            <p>&copy; {new Date().getFullYear()} MiokoTech. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} MioNova. All rights reserved.</p>
             <p style={{ marginTop: '0.5rem', color: '#5a5a6a' }}>{t.footerDesc}</p>
           </div>
           <div className="footer-social">
