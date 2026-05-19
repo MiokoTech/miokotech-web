@@ -306,7 +306,7 @@ function App() {
               <li>{t.prFeat5}</li>
             </ul>
             <a 
-              href="https://github.com/MiokoTech/MioNova/releases/latest/download/MioNova-Setup.exe"
+              href="https://github.com/MiokoTech/miokotech-web/releases/latest/download/MioNova-Setup.exe"
               target="_blank"
               rel="noreferrer"
               className="btn-primary btn-block btn-shimmer"
